@@ -4,8 +4,12 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// Fingerrattle — the idle tapping of one finger on a desk while you
+// wait for a page to load. "Idle" (not "unconscious") is the honest
+// motive: the tapper is bored, not unaware; "one finger on a desk"
+// and "a page" keep the image concrete so it lands in one reading.
 const LINE =
-  "Fingerrattle \u2014 the unconscious tapping of a finger against a desk while waiting for something to load.";
+  "Fingerrattle \u2014 the idle tapping of one finger on a desk while you wait for a page to load.";
 
 // Gate guard: the sealed scorer accepts only UTF-8 text of 1-140
 // characters, not only whitespace. Fail loudly instead of writing junk.
